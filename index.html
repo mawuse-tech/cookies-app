@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cookies app</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 min-h-screen p-8">
+    <main class="max-w-3xl mx-auto mb-12">
+        <section class="bg-white rounded-lg shadow-lg p-8">
+            <h1 class="text-3xl font-bold mb-4 text-red-500">The Christmas Star That Never Faded</h1>
+            <p class="text-gray-600 leading-relaxed space-y-4">
+                It was the night before Christmas in the small town of Evergreen, a place where snow fell as gently as
+                whispers and every home glowed with warm light. Yet, up on the hill, in a creaky old house with a
+                crooked chimney, little Sophie sat by her window, staring at the sky.
+
+                Unlike the other children, Sophie’t dream of toys or sweets. She had only one wish—to see her
+                mother smile again. Ever since Sophie’s father had passed the previous Christmas, her mother’s laughter
+                had vanished, and their home felt colder, even with the fire roaring.
+
+                That evening, as Sophie gazed out, she noticed something strange—a single star brighter than the rest.
+                It shimmered with a light so golden, it seemed to call to her. Grabbing her woolen coat, Sophie slipped
+                outside, her boots crunching softly in the snow.
+
+                “Where are you going?” whispered her little brother, Max, poking his head out from under his blanket.
+
+                “Just for a little walk,” Sophie replied with a wink. “I think the sky has something special for us this
+                year.” <br>The star seemed to guide Sophie, twinkling brighter whenever she walked in the right direction. Max couldn’t resist the adventure and hurried to join her. Together, they trudged through the snowy woods, their breath puffing like tiny clouds. The star led them to a clearing where an enormous, frost-covered pine tree stood, its branches stretching toward the heavens. Beneath the tree was a mysterious box tied with a silver ribbon.
+
+                “What is it?” Max asked, his voice trembling with both excitement and the cold.
+                
+                Sophie opened the box carefully, revealing a single glowing ornament shaped like a star. When she touched it, the light from the star filled the clearing, warming them like a summer day. A soft voice seemed to echo around them.
+                
+                “Carry this light home,” it said. “It will bring back what you have lost.”
+                
+                The children hurried back, the star’s light shining through the snowy night. As they stepped inside their home, the warmth of the light seemed to melt the shadows in the room. Sophie hung the glowing star on their small Christmas tree, and immediately, a soft golden glow spread through the house.
+                
+                The fire burned brighter, and the scent of cinnamon filled the air. Their mother, who had been sitting quietly in her chair, looked up and, for the first time in a year, smiled. She pulled Sophie and Max into a warm embrace.
+                
+                “This light,” she whispered, tears glistening in her eyes, “it feels like... like he’s with us again.”
+                
+                That night, laughter filled their home once more, and Sophie realized that the star had given them more than warmth—it had brought back hope, love, and the spirit of Christmas.
+                
+                The people of Evergreen still talk about that Christmas when a single star lit up the hill. And even though the glowing ornament eventually faded, the happiness it brought to Sophie’s family never did.
+                
+                They say it wasn’t just any star—it was a reminder that love, once kindled, can never truly be lost.
+
+            </p>
+        </section>
+    </main>
+
+    <div class="fixed hidden bottom-0 left-0 right-0 bg-white shadow-lg p-6 border-t border-gray-200" id="cookies">
+        <button class="absolute top-4 right-4 text-gray-500 hover:text-gray-700" id="close-btn" disabled>X</button>
+        <div id="inner" class="w-full">
+            <h2 class="text-2xl font-bold text-center mb-4 text-green-700">
+                🎄 🎄 Cookies for a Merry Gift! 🎄🎄
+            </h2>
+            <p class="text-gray-600 text-center mb-6 max-w-2xl mx-auto" id="cookie-text">
+                We use cookies to make your visit magical and to ensure your Christmas gift request form works
+                seamlessly. By continuing, you agree to our use of cookies for a delightful browsing experience and a
+                smooth gift registration process.
+
+                🎁 Don’t forget to fill out the form below to claim your Christmas gift! 🎅
+            </p>
+
+            <form class="max-w-md mx-auto flex flex-col gap-4" id="cookie-form">
+                <input type="text" name="name" placeholder="Enter your full name" required
+                    class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+                <input type="text" name="email" placeholder="Enter your email" required
+                    class="p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+                <div class="flex gap-4 justify-center">
+                    <button type="submit"
+                        class="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors">
+                        Accept
+                    </button>
+                    <button type="submit"
+                        class="bg-gray-200 text-gray-700 px-6 py-2 rounded-lg hover:bg-gray-300 transition-colors cursor-not-allowed" disabled>
+                        Decline
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- <img src="images/giphy.webp">   -->
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+
+</html>
